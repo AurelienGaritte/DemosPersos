@@ -19,7 +19,7 @@ Une application web moderne de gestion de produits développée avec la stack ME
 
 ### **📱 Responsive Ready**
 
-[!Démonstration responsive](./assets/Responsive.gif)
+![Démonstration responsive](./assets/Responsive.gif)
 
 ### **➕ Ajout de produit**
 
