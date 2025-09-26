@@ -4,18 +4,42 @@ Une application web moderne de gestion de produits développée avec la stack ME
 
 ## 📋 Table des matières
 
+- [Rendu visuel](#-rendu-visuel)
 - [Technologies utilisées](#-technologies-utilisées)
 - [Architecture du projet](#-architecture-du-projet)
 - [Installation](#-installation)
 - [Utilisation](#-utilisation)
 - [Fonctionnalités](#-fonctionnalités)
 
+## 📹 Rendu visuel
+
+### **🛣️ Routes fonctionnelles // 🌇 Thème Dark/Light**
+
+![Démonstration des routes et du thème](./assets/RoutesFonctionnelles.gif)
+
+### **📱 Responsive Ready**
+
+[!Démonstration responsive](./assets/Responsive.gif)
+
+### **➕ Ajout de produit**
+
+![Démonstration de l'ajout de produit](./assets/Ajout.gif)
+
+### **✏️ Modification de produit**
+![Démonstration de la modification de produit](./assets/Modification.gif)
+
+### **❌ Suppression**
+
+![!Démonstration de la suppression](./assets/Suppression.gif)
+
 ## 🚀 Technologies utilisées
 
 ### **Backend (Node.js)**
 
 #### **Frameworks et Bibliothèques principales**
+
 - **Express.js** `^5.1.0` - Framework web minimaliste et flexible pour Node.js
+
   - Gestion des routes API REST
   - Middleware pour le parsing JSON
   - Serveur HTTP intégré
@@ -26,7 +50,9 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Requêtes simplifiées vers MongoDB
 
 #### **Utilitaires et Configuration**
+
 - **dotenv** `^17.2.2` - Gestionnaire de variables d'environnement
+
   - Chargement sécurisé des configurations (.env)
   - Séparation des configurations par environnement
 
@@ -35,6 +61,7 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Définition de NODE_ENV de manière universelle
 
 #### **Outils de développement**
+
 - **nodemon** `^3.1.10` - Redémarrage automatique du serveur
   - Surveillance des changements de fichiers
   - Rechargement à chaud en développement
@@ -42,7 +69,9 @@ Une application web moderne de gestion de produits développée avec la stack ME
 ### **Frontend (React)**
 
 #### **Framework principal**
+
 - **React** `^19.1.1` - Bibliothèque JavaScript pour les interfaces utilisateur
+
   - Composants fonctionnels avec Hooks
   - Gestion d'état local et global
   - Virtual DOM pour des performances optimales
@@ -52,19 +81,23 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Portals pour le rendu hors hiérarchie
 
 #### **Routage**
+
 - **React Router DOM** `^7.9.2` - Navigation côté client
   - Routage déclaratif
   - Navigation programmable
   - Gestion de l'historique du navigateur
 
 #### **Interface utilisateur**
+
 - **Chakra UI** `^2.10.9` - Bibliothèque de composants UI modulaires
+
   - Système de design cohérent
   - Thème sombre/clair intégré
   - Composants accessibles (ARIA)
   - Responsive design
 
 - **Chakra UI Icons** `^2.2.4` - Collection d'icônes pour Chakra UI
+
   - Icônes vectorielles optimisées
   - Intégration parfaite avec Chakra UI
 
@@ -73,19 +106,23 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Composants React prêts à l'emploi
 
 #### **Animations**
+
 - **Framer Motion** `^12.23.21` - Bibliothèque d'animations pour React
   - Animations fluides et performantes
   - Transitions de page
   - Animations gestuelles
 
 #### **Gestion d'état**
+
 - **Zustand** `^5.0.8` - Gestionnaire d'état léger et simple
   - Store global minimal
   - API simple et intuitive
   - TypeScript friendly
 
 #### **Styling et CSS-in-JS**
+
 - **Emotion React** `^11.14.0` - Bibliothèque CSS-in-JS
+
   - Styles dynamiques basés sur les props
   - Performance optimisée
 
@@ -96,7 +133,9 @@ Une application web moderne de gestion de produits développée avec la stack ME
 ### **Outils de développement Frontend**
 
 #### **Build Tools**
+
 - **Vite** `^7.1.7` - Outil de build ultra-rapide
+
   - Hot Module Replacement (HMR) instantané
   - Build optimisé pour la production
   - Support ES modules natif
@@ -106,12 +145,15 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - JSX et TSX support
 
 #### **Linting et qualité de code**
+
 - **ESLint** `^9.36.0` - Linter JavaScript/TypeScript
+
   - Détection des erreurs de code
   - Application des bonnes pratiques
   - Formatage automatique
 
 - **eslint-plugin-react-hooks** `^5.2.0` - Règles ESLint pour les Hooks React
+
   - Validation des règles des Hooks
   - Prévention des bugs liés aux Hooks
 
@@ -119,10 +161,12 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Compatibilité avec le Hot Reload
 
 #### **Types TypeScript**
+
 - **@types/react** `^19.1.13` - Définitions TypeScript pour React
 - **@types/react-dom** `^19.1.9` - Définitions TypeScript pour React DOM
 
 ### **Base de données**
+
 - **MongoDB** - Base de données NoSQL orientée documents
   - Stockage flexible des données JSON
   - Scalabilité horizontale
@@ -144,21 +188,25 @@ Une application web moderne de gestion de produits développée avec la stack ME
 ### **Pourquoi cette stack ?**
 
 **MERN Stack** = **Cohérence JavaScript** sur toute la pile technologique
+
 - **MongoDB** : Flexibilité NoSQL pour le prototypage rapide
 - **Express.js** : Simplicité et performance pour les APIs
 - **React** : Écosystème riche et communauté active
 - **Node.js** : Runtime JavaScript côté serveur
 
 **Chakra UI** = **Productivité maximale**
+
 - Composants pré-stylés et accessibles
 - Système de thème intégré
 - Documentation excellente
 
 **Zustand** = **Gestion d'état simple**
+
 - API intuitive
 - Performance optimale
 
 **Vite** = **Expérience développeur optimale**
+
 - Build instantané
 - HMR ultra-rapide
 - Configuration minimale
