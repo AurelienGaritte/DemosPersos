@@ -26,6 +26,7 @@ Une application web moderne de gestion de produits développée avec la stack ME
 ![Démonstration de l'ajout de produit](./assets/Ajout.gif)
 
 ### **✏️ Modification de produit**
+
 ![Démonstration de la modification de produit](./assets/Modification.gif)
 
 ### **❌ Suppression**
@@ -140,10 +141,6 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Build optimisé pour la production
   - Support ES modules natif
 
-- **@vitejs/plugin-react** `^5.0.3` - Plugin Vite pour React
-  - Fast Refresh pour React
-  - JSX et TSX support
-
 #### **Linting et qualité de code**
 
 - **ESLint** `^9.36.0` - Linter JavaScript/TypeScript
@@ -151,19 +148,6 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - Détection des erreurs de code
   - Application des bonnes pratiques
   - Formatage automatique
-
-- **eslint-plugin-react-hooks** `^5.2.0` - Règles ESLint pour les Hooks React
-
-  - Validation des règles des Hooks
-  - Prévention des bugs liés aux Hooks
-
-- **eslint-plugin-react-refresh** `^0.4.20` - Support ESLint pour React Refresh
-  - Compatibilité avec le Hot Reload
-
-#### **Types TypeScript**
-
-- **@types/react** `^19.1.13` - Définitions TypeScript pour React
-- **@types/react-dom** `^19.1.9` - Définitions TypeScript pour React DOM
 
 ### **Base de données**
 
