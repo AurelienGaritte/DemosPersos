@@ -120,17 +120,6 @@ Une application web moderne de gestion de produits développée avec la stack ME
   - API simple et intuitive
   - TypeScript friendly
 
-#### **Styling et CSS-in-JS**
-
-- **Emotion React** `^11.14.0` - Bibliothèque CSS-in-JS
-
-  - Styles dynamiques basés sur les props
-  - Performance optimisée
-
-- **Emotion Styled** `^11.14.1` - API styled-components pour Emotion
-  - Composants stylés réutilisables
-  - Thémisation avancée
-
 ### **Outils de développement Frontend**
 
 #### **Build Tools**
